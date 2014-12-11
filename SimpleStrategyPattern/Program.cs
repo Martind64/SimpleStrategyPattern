@@ -10,7 +10,7 @@ namespace SimpleStrategyPattern
     {
         static void Main(string[] args)
         {
-            // Instantiate A Car and pass it through the Carwash
+            // Instantiate A Car and pass it through the Carwash.
             Car car = new Car("BMW");
                         
             DeluxeWash WashProgramStrategy = new DeluxeWash();
